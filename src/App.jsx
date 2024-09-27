@@ -20,8 +20,11 @@ function App() {
         <Navbar>
           <ul>
             <li>Home</li>
-            <li>About</li>
-            <li>More</li>
+            <li>Quem sou eu</li>
+            <li>Serviços</li>
+            <li>Avaliações</li>
+            <li>Enviar documento</li>
+            <li className='contato'>Contato</li>
           </ul>
         </Navbar>
       </Header>
