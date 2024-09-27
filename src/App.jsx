@@ -11,6 +11,7 @@ import { Hero }
 import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
 import Review from './components/Reviews'
+import CardsServices from './components/CardsServices'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <img src={Italy} className='italy'></img>
       </Hero>
       <LarissaSection />
+      <CardsServices />
       <Serviços />
       <Review />
     </>
