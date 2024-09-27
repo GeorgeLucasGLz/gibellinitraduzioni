@@ -8,7 +8,7 @@ justify-content: center;
 width: 100%;
 background-color: #002744;
 height: 350px;
-margin-top: 50px;
+margin-top: 100px;
 gap: 40px;
 
 img{
