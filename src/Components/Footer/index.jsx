@@ -17,7 +17,7 @@ function Footer() {
                     </div>
                 </Container>
                 <p>Copyright © 2024 Gibellini Traduzioni, 55.033.801/0001-45. Todos os direitos reservados.</p>
-                <a href="https://www.freelings.com.br/">Desenvolvido por Freelings Co®.</a>
+                <a target="_blank" href="https://www.freelings.com.br/">Desenvolvido por Freelings Co®.</a>
             </SectionFooter>
 
         </>
