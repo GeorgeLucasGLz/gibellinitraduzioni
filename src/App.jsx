@@ -11,11 +11,12 @@ import { Hero }
 import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
 import CardReview from './Components/CardReviews'
-import CardServices from './components/CardsServices'
+import Footer from './Components/Footer'
+
 
 function App() {
   return (
-    <body className='body'>
+    <>
       <Header>
         <img src={Logo} className='logo'></img>
         <Navbar>
@@ -41,7 +42,8 @@ function App() {
       <CardServices />
       <Serviços />
       <CardReview />
-    </body>
+      <Footer />
+    </>
   )
 }
 
