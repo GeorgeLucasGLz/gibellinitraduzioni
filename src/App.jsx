@@ -12,7 +12,7 @@ import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
 import CardReview from './Components/CardReviews'
 import Footer from './Components/Footer'
-import CardServices from './components/CardsServices'
+
 
 function App() {
   return (
@@ -39,7 +39,6 @@ function App() {
         <img src={Italy} className='italy'></img>
       </Hero>
       <LarissaSection />
-      <CardServices />
       <Serviços />
       <CardReview />
       <Footer />
