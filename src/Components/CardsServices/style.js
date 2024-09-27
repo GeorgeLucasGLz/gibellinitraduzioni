@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const Section = styled.section `
+export const Section = styled.section`
 
-width: 100vw;
+width: 100%;
 background-color: red;
 height: 30px;
 

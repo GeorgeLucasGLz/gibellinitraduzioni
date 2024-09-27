@@ -1,13 +1,17 @@
 import React from "react";
-import { Footer } from './style.js'
+import { SectionFooter } from './style.js'
+import Logo from '../../assets/logo2.webp'
 
 function Footer() {
 
     return (
         <>
-            <Footer>
+            <SectionFooter>
+                <div>
+                    <img src={Logo} alt="logo" />
+                </div>
 
-            </Footer>
+            </SectionFooter>
         </>
     )
 }

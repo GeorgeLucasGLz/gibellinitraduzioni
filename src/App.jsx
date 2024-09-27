@@ -11,6 +11,7 @@ import { Hero }
 import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
 import CardReview from './Components/CardReviews'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <LarissaSection />
       <Serviços />
       <CardReview />
+      <Footer />
     </>
   )
 }
