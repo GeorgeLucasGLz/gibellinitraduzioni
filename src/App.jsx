@@ -1,8 +1,4 @@
 import React from 'react'
-<<<<<<<<< Temporary merge branch 1
-import LarissaSection from './components/LarissaSection'
-import Services from './components/Serviços'
-=========
 import '../src/styles.css'
 import {
   Header,
@@ -12,16 +8,13 @@ import Logo from '../src/assets/logo.png'
 import Italy from '../src/assets/italy.webp'
 import { Hero }
   from '../src/Components/HeroSection/style'
->>>>>>>>> Temporary merge branch 2
+import LarissaSection from './components/LarissaSection'
+import Serviços from './components/Serviços'
 
 function App() {
 
   return (
     <>
-<<<<<<<<< Temporary merge branch 1
-      <LarissaSection />
-      <Services />
-=========
       <Header>
         <img src={Logo} className='logo'></img>
         <Navbar>
@@ -40,8 +33,8 @@ function App() {
         </div>
         <img src={Italy} className='italy'></img>
       </Hero>
-
->>>>>>>>> Temporary merge branch 2
+      <LarissaSection />
+      <Serviços />
     </>
   )
 }
