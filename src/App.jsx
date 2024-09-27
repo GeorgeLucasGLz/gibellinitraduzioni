@@ -6,7 +6,6 @@ import {
 } from '../src/Components/Header/style'
 import Logo from '../src/assets/logo2.webp'
 import Italy from '../src/assets/italy.webp'
-import Bg from '../src/assets/logo.png'
 import { Hero }
   from '../src/Components/HeroSection/style'
 import LarissaSection from './components/LarissaSection'
