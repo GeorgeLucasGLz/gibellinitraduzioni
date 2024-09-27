@@ -10,6 +10,7 @@ import { Hero }
   from '../src/Components/HeroSection/style'
 import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
+import Review from './components/Reviews'
 import CardsServices from './components/CardsServices'
 
 function App() {
@@ -20,8 +21,11 @@ function App() {
         <Navbar>
           <ul>
             <li>Home</li>
-            <li>About</li>
-            <li>More</li>
+            <li>Quem sou eu</li>
+            <li>Serviços</li>
+            <li>Avaliações</li>
+            <li>Enviar documento</li>
+            <li className='contato'>Contato</li>
           </ul>
         </Navbar>
       </Header>
@@ -36,6 +40,7 @@ function App() {
       <LarissaSection />
       <CardsServices />
       <Serviços />
+      <Review />
     </>
   )
 }
