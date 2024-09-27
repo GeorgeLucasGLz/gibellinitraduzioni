@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Section = styled.section`
 display: flex;
-width: 100vw;
-height: 80vh;
+width: 100%;
+height: auto;
 `
 
 export const Image = styled.img`

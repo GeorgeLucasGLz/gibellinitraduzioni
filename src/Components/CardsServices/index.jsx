@@ -1,12 +1,16 @@
 import React from "react";
-import { Section } from './style.js'
+import { Section, Card} from './style.js'
 
 function Cards() {
 
     return (
         <>
             <Section>
-               
+
+        
+               <Card>
+                
+               </Card>
             </Section>
 
         </>

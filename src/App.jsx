@@ -6,16 +6,17 @@ import {
 } from '../src/Components/Header/style'
 import Logo from '../src/assets/logo2.webp'
 import Italy from '../src/assets/italy.webp'
+import Bg from '../src/assets/logo.png'
 import { Hero }
   from '../src/Components/HeroSection/style'
 import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
 import CardReview from './Components/CardReviews'
-
+import CardServices from './components/CardsServices'
 
 function App() {
   return (
-    <>
+    <body className='body'>
       <Header>
         <img src={Logo} className='logo'></img>
         <Navbar>
@@ -38,9 +39,10 @@ function App() {
         <img src={Italy} className='italy'></img>
       </Hero>
       <LarissaSection />
+      <CardServices />
       <Serviços />
       <CardReview />
-    </>
+    </body>
   )
 }
 
