@@ -3,18 +3,19 @@ import styled from "styled-components";
 export const Section = styled.section`
 display: flex;
 width: 100vw;
-height: 100vh;
+height: 80vh;
 `
 
 export const Image = styled.img`
-width: 50vw;
+width: 40vw;
 `
 
 export const ContainerText = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-width: 50vw;
+width: 60vw;
+padding-left: 75px;
 `
 
 export const Infos = styled.div`
