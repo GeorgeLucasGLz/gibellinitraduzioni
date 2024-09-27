@@ -31,13 +31,9 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 width: 20vw;
-background-color: aliceblue;
 gap: 20px;
 padding: 50px;
-
-img{
-    width: 100px;
-}
+position: relative;
 
 h3{
     color: #000;
@@ -49,4 +45,15 @@ p{
     text-align: center;
     margin: 0;
 }
+`
+
+export const Perfil = styled.img`
+width: 100px;
+`
+
+export const BgCard = styled.img`
+position: absolute;
+z-index: -1;
+width: 100%;
+height: 100%;
 `
