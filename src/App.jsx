@@ -27,7 +27,7 @@ function App() {
       </Header>
       <Hero>
         <div className='info-hero'>
-          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+          <h1>SPECIALISTI IN TRADUZIONI GIURIDICHE ITALIANE</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repellendus sequi deserunt qui tempore quisquam id laborum possimus aliquam, voluptatem beatae exercitationem, ex itaque et, ut hic repudiandae fugiat aliquid.</p>
 
         </div>
