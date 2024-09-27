@@ -39,7 +39,7 @@ function App() {
         <img src={Italy} className='italy'></img>
       </Hero>
       <LarissaSection />
-    
+      <CardServices />
       <Serviços />
       <CardReview />
       <Footer />
