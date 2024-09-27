@@ -17,6 +17,7 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <>
+      <div className='mask'></div>
       <Header>
         <img src={Logo} className='logo'></img>
         <Navbar>
