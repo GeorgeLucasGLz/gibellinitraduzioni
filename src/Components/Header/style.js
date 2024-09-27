@@ -6,8 +6,13 @@ display: flex;
 width: 100%;
 position: relative;
 
+img{
+    width: 100px;
+    margin: 30px;
+}
+
 `
-export const Navbar = styled.nav `
+export const Navbar = styled.nav`
 display: flex;
 width: 100%;
 justify-content: center;
@@ -20,6 +25,6 @@ ul{
 }
 
 li{
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 ` 
