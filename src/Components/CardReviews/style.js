@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Section = styled.section`
 display: flex;
 flex-direction: column;
-width: 100vw;
-height: 80vh;
+width: 100%;
+height: auto;
 
 p{
     width: 40vw;
@@ -33,9 +33,11 @@ flex-direction: column;
 width: 20vw;
 gap: 20px;
 padding: 50px;
+z-index: 1;
 position: relative;
 
 h3{
+    z-index: 1;
     color: #000;
 }
 
@@ -44,16 +46,18 @@ p{
     width: 100%;
     text-align: center;
     margin: 0;
+    z-index: 1;
 }
 `
 
 export const Perfil = styled.img`
 width: 100px;
+z-index: 1;
 `
 
 export const BgCard = styled.img`
 position: absolute;
-z-index: -1;
+z-index: 0;
 width: 100%;
 height: 100%;
 `

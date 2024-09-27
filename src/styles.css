@@ -8,3 +8,12 @@
     width: 40vw;
     height: auto;
 }
+
+.body{
+    background-image: url(../src//assets/bg-fixed.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
