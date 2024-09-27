@@ -1,14 +1,11 @@
 import React from 'react'
-import LarissaSection from './components/LarissaSection'
-import Services from './components/Serviços'
+import './styles.css'
 
 function App() {
 
   return (
-    <>
-      <LarissaSection />
-      <Services />
-    </>
+    <h1>Hello World</h1>
+ 
   )
 }
 
