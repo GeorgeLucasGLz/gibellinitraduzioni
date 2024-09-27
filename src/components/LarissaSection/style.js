@@ -20,7 +20,7 @@ width: 50vw;
 export const Infos = styled.div`
 display: flex;
 flex-direction: column;
-width: 30vw;
+width: 40vw;
 
 h2{
     font-size: 80px;
@@ -29,5 +29,8 @@ h2{
 
 h3{
     margin-top: -70px;
+}
+p{
+    width: 30vw;
 }
 `
