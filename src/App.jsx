@@ -4,7 +4,7 @@ import {
   Header,
   Navbar
 } from '../src/Components/Header/style'
-import Logo from '../src/assets/logo.png'
+import Logo from '../src/assets/logo2.webp'
 import Italy from '../src/assets/italy.webp'
 import { Hero }
   from '../src/Components/HeroSection/style'
@@ -13,7 +13,6 @@ import Serviços from './components/Serviços'
 import CardsServices from './components/CardsServices'
 
 function App() {
-
   return (
     <>
       <Header>
