@@ -27,9 +27,6 @@ h2{
     margin-top: 20px;
 }
 
-h3{
-    margin-top: -70px;
-}
 p{
     width: 40vw;
 }
