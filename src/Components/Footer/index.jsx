@@ -13,7 +13,7 @@ function Footer() {
                     </div>
                     <div>
                         <p>suportecontef@gmail.com</p>
-                        <p>(75) 8126-7563</p>
+                        <p>(75)8126-7563</p>
                     </div>
                 </Container>
                 <p>Copyright © 2024 Gibellini Traduzioni, 55.033.801/0001-45. Todos os direitos reservados.</p>
