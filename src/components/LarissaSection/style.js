@@ -15,7 +15,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 60vw;
-padding-left: 75px;
 `
 
 export const Infos = styled.div`
@@ -32,6 +31,6 @@ h3{
     margin-top: -70px;
 }
 p{
-    width: 30vw;
+    width: 40vw;
 }
 `
