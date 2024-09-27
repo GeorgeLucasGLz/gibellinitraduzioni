@@ -40,8 +40,8 @@ li:hover{
     margin-top: -10px;
     border-radius: 5px;
 }
-` 
-export const Body = styled.div `
+`
+export const Body = styled.div`
 
     background-size: cover;
     background-position: center;
