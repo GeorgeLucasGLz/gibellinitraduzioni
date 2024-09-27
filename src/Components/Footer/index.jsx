@@ -1,5 +1,5 @@
 import React from "react";
-import { SectionFooter } from './style.js'
+import { SectionFooter, Container } from './style.js'
 import Logo from '../../assets/logo2.webp'
 
 function Footer() {
@@ -7,11 +7,19 @@ function Footer() {
     return (
         <>
             <SectionFooter>
-                <div>
-                    <img src={Logo} alt="logo" />
-                </div>
-
+                <Container>
+                    <div>
+                        <img src={Logo} alt="logo" />
+                    </div>
+                    <div>
+                        <p>suportecontef@gmail.com</p>
+                        <p>(75)8126-7563</p>
+                    </div>
+                </Container>
+                <p>Copyright © 2024 Gibellini Traduzioni, 55.033.801/0001-45. Todos os direitos reservados.</p>
+                <a href="https://www.freelings.com.br/">Desenvolvido por Freelings Co®.</a>
             </SectionFooter>
+
         </>
     )
 }
