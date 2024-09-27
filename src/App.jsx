@@ -16,7 +16,7 @@ import CardServices from './components/CardsServices'
 
 function App() {
   return (
-    <div className='body'>
+    <>
       <Header>
         <img src={Logo} className='logo'></img>
         <Navbar>
@@ -43,7 +43,7 @@ function App() {
       <Serviços />
       <CardReview />
       <Footer />
-    </div>
+    </>
   )
 }
 
