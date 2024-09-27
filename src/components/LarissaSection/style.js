@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
 display: flex;
 width: 100%;
-height: 80vh;
+height: auto;
 `
 
 export const Image = styled.img`
