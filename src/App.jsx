@@ -8,6 +8,8 @@ import Logo from '../src/assets/logo.png'
 import Italy from '../src/assets/italy.webp'
 import { Hero }
   from '../src/Components/HeroSection/style'
+import LarissaSection from './components/LarissaSection'
+import Serviços from './components/Serviços'
 
 function App() {
 
@@ -31,7 +33,8 @@ function App() {
         </div>
         <img src={Italy} className='italy'></img>
       </Hero>
-
+      <LarissaSection />
+      <Serviços />
     </>
   )
 }
