@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Header = styled.header`
 display: flex;
 width: 100%;
@@ -42,3 +41,12 @@ li:hover{
     border-radius: 5px;
 }
 ` 
+export const Body = styled.div `
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+`

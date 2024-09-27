@@ -12,11 +12,11 @@ import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
 import CardReview from './Components/CardReviews'
 import Footer from './Components/Footer'
-
+import CardServices from './components/CardsServices'
 
 function App() {
   return (
-    <>
+    <div className='body'>
       <Header>
         <img src={Logo} className='logo'></img>
         <Navbar>
@@ -43,7 +43,7 @@ function App() {
       <Serviços />
       <CardReview />
       <Footer />
-    </>
+    </div>
   )
 }
 
