@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Card} from './style.js'
+import { Section} from './style.js'
 
 function Cards() {
 
@@ -8,9 +8,7 @@ function Cards() {
             <Section>
 
         
-               <Card>
-                
-               </Card>
+            
             </Section>
 
         </>
