@@ -10,6 +10,7 @@ import { Hero }
   from '../src/Components/HeroSection/style'
 import LarissaSection from './components/LarissaSection'
 import Serviços from './components/Serviços'
+import CardReview from './Components/CardReviews'
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       </Hero>
       <LarissaSection />
       <Serviços />
+      <CardReview />
     </>
   )
 }
