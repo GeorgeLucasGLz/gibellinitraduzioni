@@ -35,6 +35,12 @@ gap: 20px;
 padding: 50px;
 z-index: 1;
 position: relative;
+box-shadow: rgba(194, 139, 13, 0.4) 5px 5px, 
+            rgba(194, 139, 13, 0.3) 10px 10px, 
+            rgba(194, 139, 13, 0.2) 15px 15px, 
+            rgba(194, 139, 13, 0.1) 20px 20px, 
+            rgba(194, 139, 13, 0.05) 25px 25px;
+
 
 h3{
     z-index: 1;
