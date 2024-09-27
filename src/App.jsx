@@ -1,12 +1,14 @@
 import React from 'react'
 import LarissaSection from './components/LarissaSection'
+import Services from './components/Serviços'
 
 function App() {
 
   return (
-
-    <LarissaSection />
-
+    <>
+      <LarissaSection />
+      <Services />
+    </>
   )
 }
 
