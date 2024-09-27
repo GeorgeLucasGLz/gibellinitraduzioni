@@ -5,7 +5,13 @@
   font-family: "Gowun Batang", Arial, Helvetica, sans-serif;
   color: rgba(255, 255, 255, 0.87);
   background-color: #000000;
+  background-image: url(../src/assets/bg-fixed.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
+  position: relative;
 }
 
 * {
